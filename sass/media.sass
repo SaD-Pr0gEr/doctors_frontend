@@ -1,0 +1,726 @@
+/*==========	Desktop First	==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1340px)
+	.reviews-slider
+		padding: 0 30px
+
+	.slick-prev
+		left: 0
+	.slick-next
+		right: 0
+
+@media only screen and (max-width: 1200px)
+	.menu
+		margin: 0 20px 0 0
+		.nav-item
+			margin: 0 20px 0 0
+
+	.filter-box
+		margin: 0 20px 0 0
+
+	.doctors-card
+		padding: 20px
+		&__body
+			width: calc(100% - 320px)
+		&__footer
+			max-width: 320px
+		.appointment-box-wrapper
+			width: 100%
+			margin: 0 0 16px
+
+	.appointment-box
+		flex-wrap: wrap
+
+@media only screen and (max-width: 992px)
+	.nav-breadcrumb
+		margin: 0 0 16px
+
+	.nav-menu
+		display: none
+		position: fixed
+		right: 0
+		top: 0
+		height: 100%
+		overflow-y: auto
+		width: 100%
+		max-width: 290px
+		z-index: 10
+		background: #fff
+		padding: 20px 30px
+		justify-content: flex-start
+		align-items: flex-start
+		flex-direction: column
+		border-left: 1px solid #D2DAE1
+		.locaton-city, .logo, .phone
+			display: flex
+		.link
+			margin: 0 0 15px
+		&__close
+			display: flex
+
+	.menu
+		flex-direction: column
+		align-items: flex-start
+		margin: 20px 0
+		width: 100%
+		.nav-item
+			margin: 0 0 10px
+
+	.btn-burger
+		display: flex
+
+	header
+		.logo
+			margin: 0 auto 0 20px
+
+	.btn-search
+		display: flex
+
+	.phone
+		margin: 0 0 0 20px
+
+	.footer-box
+		margin: 0 0 24px
+
+	.footer-top
+		padding: 32px 0 8px
+
+	.footer-bottom
+		padding: 24px 0
+
+	.box-text-documents
+		margin: 16px 0 0
+
+	.page-header
+		padding: 24px 0
+		border-radius: 24px
+
+	.page-body
+		padding: 16px 0 56px
+
+	.form-search-doctors
+		margin: 0
+
+	.filter-wrapper
+		.btn-group, .btn-medicine
+			display: none
+
+	.filter-box
+		margin: 0
+
+	.search-doctors-result
+		margin: 0 0 16px
+		order: -1
+
+	.doctors-card
+		padding: 16px
+		&__body
+			width: 100%
+			padding: 0 0 0 144px
+		&__footer
+			margin: 16px 0 0
+			max-width: none
+
+	.product-sidebar
+		padding: 0
+		border-radius: 0
+		background: transparent
+		margin: 0 0 16px
+
+	.product-content
+		.doctor-position
+			margin: 0 0 8px
+		.h4
+			margin: 0
+
+	.doctors-card-item
+		margin: 0 0 16px
+
+	.doctors-card-item-btn
+		order: 1
+		margin: 16px 0 0
+
+	.product-content__name
+		display: flex
+		flex-direction: column
+		align-items: flex-start
+
+	.nav-tabs
+		display: flex
+		align-items: flex-start
+		flex-direction: row
+		border-bottom: 1px solid #D2DAE1
+
+		.nav-item
+			width: fit-content
+			margin: 0 24px 0 0
+			&:last-child
+				margin: 0
+		.nav-link
+			padding: 0 0 8px
+			border-radius: 0
+			position: relative
+			z-index: 1
+			&::before
+				content: ''
+				position: absolute
+				left: 0
+				bottom: -1px
+				width: 100%
+				height: 1px
+				background: transparent
+				transition: .3s ease
+			&.active
+				background: transparent
+				color: #237AE0
+				&::before
+					background: #237AE0
+
+	.tab-content
+		margin: 16px 0 0
+		h2, h3
+			margin: 0 0 16px
+
+	.specialization-box
+		padding: 0 0 24px
+		margin: 0 0 24px
+
+	.product-sidebar .list-schedule li p, .product-sidebar .list-schedule li span
+		background: #fff
+
+	.product-advantages-box
+		margin: 8px 0 0
+
+	.product-content__box
+		.list-category
+			margin: 16px 0
+
+	.certificates-item
+		height: auto
+
+	.nav-tabs-product
+		position: relative
+		top: 0
+
+@media only screen and (max-width: 768px)
+	header
+		padding: 16px 0
+		.link
+			display: none
+
+		.logo
+			margin: 0 auto
+
+	.p-64
+		padding: 32px 0
+
+	.m-80
+		margin: 40px 0
+
+	.mb-48
+		margin-bottom: 24px
+
+	h1, .h1
+		font-size: 30px
+
+	h2, .h2
+		font-size: 26px
+
+	.advantages-wrapper
+		margin: 20px 0 0
+
+	.btn-toggle-services
+		margin: 16px auto 0
+
+	.btn
+		font-size: 14px
+		line-height: normal
+
+	.btn-filter
+		display: flex
+
+	.filter-box
+		p
+			display: none
+
+	.form-search-doctors
+		flex-wrap: wrap
+		margin: 0 0 20px
+		label
+			width: 100%
+		[type='submit']
+			width: 100%
+
+	.filter-mobile
+		display: none
+		position: fixed
+		right: 0
+		top: 0
+		height: 100%
+		max-width: 290px
+		width: 100%
+		background: #fff
+		z-index: 10
+		padding: 20px
+		overflow-y: auto
+		border-left: 1px solid #D2DAE1
+		&__head
+			display: flex
+		.btn-medicine
+			width: 100%
+			margin: 0 0 10px
+
+		.btn-medicine, .btn-group
+			display: flex
+		.btn-group
+			.btn
+				margin: 0 0 10px
+				width: 100%
+				&:last-child
+					margin: 0
+
+	.reviews-box
+		padding: 16px
+		&__clinic
+			padding: 0 0 0 20px
+			font-size: 14px
+
+@media only screen and (max-width: 576px)
+	h1, .h1
+		font-size: 26px
+		line-height: 120%
+
+	h2, .h2
+		font-size: 22px
+		line-height: 120%
+
+	h3, .h3
+		font-size: 20px
+		line-height: normal
+
+	h4, .h4
+		margin: 0 0 8px
+		font-size: 16px
+		line-height: 150%
+
+	.btn-sm
+		padding: 10px 20px
+
+	body
+		line-height: normal
+
+	.mb-24
+		margin-bottom: 16px
+
+	.cities-services
+		h2
+			margin: 0 auto 16px
+
+	.list-category
+		margin: 16px 0 0
+		font-size: 12px
+		&__link
+			padding: 6px 10px
+			margin: 0 4px 4px 0
+			&:last-child
+				margin: 0 0 4px
+
+	.link-toggle-category
+		padding: 4px 6px
+		height: auto
+		font-size: 12px
+
+	.footer-menu
+		font-size: 12px
+		line-height: normal
+		li
+			margin: 0 0 8px
+			width: 100%
+
+	.footer-phone
+		font-size: 18px
+		line-height: 130%
+
+	.footer-mail
+		font-size: 14px
+
+	.footer-bottom
+		font-size: 12px
+
+	.footer-call p
+		font-size: 12px
+		line-height: normal
+		margin: 0 0 8px
+
+	.modal-header
+		margin: 0 0 24px
+		padding: 20px 20px 0
+
+	.modal-body
+		padding: 0 20px 20px
+
+	.modal-footer
+		padding: 20px
+		.doctors-card-item__title
+			font-size: 12px
+		.doctor-phone
+			font-size: 18px
+
+	.modal
+		.form-callback
+			[type='submit']
+				margin: 0 auto
+
+	.consent
+		font-size: 12px
+		margin: 8px 0 16px
+
+	.form-callback
+		margin: 16px 0 0
+
+	.information-call
+		font-size: 12px
+		margin: 16px 0 0
+
+	.list-cities
+		margin: 24px 0 0
+		column-count: 2
+		li
+			margin: 0 0 8px
+
+	.input-text
+		font-size: 14px
+		top: 18px
+
+	.form-search
+		flex-wrap: wrap
+		label
+			width: 100%
+			margin: 0 0 8px
+		[type='submit']
+			min-width: auto
+			width: 100%
+
+	.result-search
+		width: 100%
+		top: 52px
+
+	.form-search-modal
+		[type='submit']
+			width: 20px
+
+	.advantages-box
+		padding: 20px
+
+	.list-services
+		li
+			flex-wrap: wrap
+			&::before
+				display: none
+			p
+				width: 100%
+				margin: 0 0 5px
+				padding: 0
+			span
+				padding: 0
+				margin: 0
+
+	.btn
+		font-size: 12px
+		padding: 8px 24px
+
+	.btn-icon
+		width: 20px
+		height: 20px
+		min-width: 20px
+
+	.btn-border-accent
+		padding: 12px 25px
+
+	.link-toggle-category
+		padding: 6px 13px
+
+	.search-doctors-result span
+		display: block
+		width: 100%
+		margin: 8px 0 0
+		font-size: 12px
+		font-weight: normal
+		&::before
+			display: none
+
+	.doctors-card
+		min-height: auto
+		font-size: 12px
+		align-items: flex-start
+		flex-direction: column
+		&__photo
+			margin: 0 24px 0 0
+			position: relative
+			max-width: 112px
+
+		&__body
+			padding: 0
+			.rating-wrapper
+				display: flex
+				align-items: center
+		&__head
+			display: flex
+			align-items: center
+			margin: 0 0 16px
+			.rating-wrapper
+				display: none
+		.list-rating
+			width: fit-content
+			margin: 0 16px 0 0
+		.rating-value
+			margin: 0
+
+	.doctor-name
+		line-height: normal
+
+	.reception-type-box
+		padding: 8px 12px
+		.price-wrapper
+			font-size: 16px
+
+	.doctors-card-item
+		margin: 0 0 16px
+		font-size: 12px
+		line-height: normal
+		&:last-child
+			margin: 0
+		&__title
+			margin: 0 0 4px
+			&.h4
+				margin: 0 0 16px
+
+	.doctor-phone
+		font-size: 16px
+
+	.rating-wrapper
+		margin: 8px auto 0
+
+	.list-address
+		display: flex
+		align-items: flex-start
+
+	.list-address-item
+		flex-wrap: wrap
+		margin: 0
+		position: relative
+		&::before
+			position: absolute
+			left: 0
+			top: 4px
+		p
+			padding: 0 0 0 12px
+		span
+			display: block
+			margin: 2px 0 0
+			width: 100%
+
+	.time-list-slider-mob
+		width: calc(100% + 16px)
+		overflow-x: auto
+		flex-wrap: nowrap
+		li
+			margin: 0
+			width: 67px
+
+	.time-list-item
+		padding: 8px 12px
+		font-size: 12px
+		line-height: 150%
+
+	.pagination
+		.page-item
+			margin: 0 6px 0 0
+			&:last-child
+				margin: 0
+		.page-link
+			width: 36px
+			height: 40px
+			min-width: 36px
+			border-radius: 10px
+			font-size: 14px
+
+	.select-my
+		font-size: 12px
+		padding: 0 40px 0 20px
+
+	.form-area [type='submit']
+		margin: 16px 0 0
+
+	.form-area-box
+		margin: 24px 0 0
+		h3
+			margin: 0 0 16px
+
+	.datepicker .ui-datepicker .ui-datepicker-title
+		margin: 0 auto
+
+	.datepicker .ui-datepicker .ui-datepicker-header
+		font-size: 20px
+
+	.list-checkbox li
+		width: 100%
+		margin: 0 0 10px
+		&:last-child
+			margin: 0
+
+	.result-search-doctors
+		margin: 30px auto 0
+
+	.clinic-card
+		.rating-wrapper
+			margin: 0 0 8px
+
+	.btn-toggle-text
+		margin: 8px 0 0
+		font-size: 12px
+
+	.reviews
+		margin: 0 0 60px
+
+	.reviews-box
+		font-size: 12px
+		line-height: 150%
+		margin: 0 0 12px
+		position: relative
+		&:last-child
+			margin: 0
+		.date
+			margin: 16px 0 0
+		&__content
+			padding: 0
+			width: 100%
+		&__user
+			position: absolute
+			left: 16px
+			top: 16px
+		&__name
+			margin: 0
+			padding: 0 0 0 72px
+			min-height: 56px
+			display: flex
+			align-items: center
+			flex-wrap: wrap
+		.rating-wrapper
+			margin: 16px 0 0
+
+	.doctors-card__description
+		max-height: 58px
+
+	.product-content__name
+		width: 100%
+		padding: 0
+
+	.doctors-card__footer .doctors-card-address
+		margin: 0 0 16px
+
+	.product-content
+		.doctors-card__photo
+			margin: 0 auto 24px
+			max-width: 280px
+		.doctors-card__photo-avatar
+			width: 240px
+			height: 240px
+			border-radius: 0
+			border: none
+			margin: 0 auto
+		.rating-wrapper
+			background: #fff
+			box-shadow: 0 8px 20px rgba(#141414, .08)
+			padding: 12px
+			margin: -20px auto 0
+			position: relative
+			z-index: 1
+		.box-text
+			font-size: 12px
+
+	.doctors-card-item-btn
+		margin: 16px 0 0
+
+	.list-address
+		margin: 8px 0 0
+
+	.nav-tabs
+		font-size: 12px
+		.nav-link
+			font-size: 12px
+
+	.reviews-filter-rating
+		width: 100%
+		margin: 0 0 16px
+		font-size: 16px
+
+	.reviews-filter .select-my
+		width: 100%
+		text-align: center
+
+	.btn-map
+		padding: 22px
+		font-size: 14px
+
+	.specialization-box
+		font-size: 14px
+
+	.list-education-item
+		font-size: 14px
+		&__year
+			text-align: left
+			width: 56px
+			min-width: 56px
+			font-size: 16px
+		&__text
+			margin: 0
+			padding: 0
+			width: calc(100% - 56px)
+
+	.list-dots-accent li
+		&::before
+			margin-top: 6px
+
+	.prices-category
+		margin: 24px 0 0
+
+	.prices-box
+		padding: 16px
+		width: calc(100% + 24px)
+		margin: 0 -12px 12px
+		&:last-child
+			margin: 0 -12px
+		h4
+			font-size: 14px
+
+	.list-price
+		font-size: 12px
+
+	.status-visit
+		order: 1
+		margin: 16px 0 0
+		font-size: 10px
+
+	.doctocs-section
+		margin: 0 0 56px
+
+	.map-wrapper
+		height: 300px
+
+	.nav-breadcrumb
+		margin: 0 0 16px
+
+	.breadcrumb
+		font-size: 12px
+
+	.breadcrumb-item::after
+		margin: 0 6px
+		width: 10px
+		height: 10px
+
+	.section
+		margin: 0 0 40px
+		&:last-child
+			margin: 0

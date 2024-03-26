@@ -1,0 +1,215 @@
+@import "fonts"
+@import "vars"
+
+// footer
+footer
+	background: #fff
+	.box-text
+		p
+			margin: 0
+
+.footer-top
+	padding: 48px 0 55px
+
+.footer-call
+	margin: 0 0 24px
+	&:last-child
+		margin: 0
+	p
+		margin: 0 0 12px
+		font-size: 14px
+		color: $grey
+
+.footer-phone
+	color: $black
+	font-size: 24px
+	font-weight: 500
+	&:hover
+		color: $accent
+
+.footer-mail
+	color: $accent
+	font-weight: 500
+	&:hover
+		color: $accent-hover
+
+.footer-menu
+	font-size: 14px
+	display: flex
+	align-items: flex-start
+	flex-wrap: wrap
+	li
+		width: 50%
+		margin: 0 0 14px
+		&:last-child
+			margin: 0
+		a
+			color: $black
+			&:hover
+				color: $accent
+
+.footer-bottom
+	padding: 32px 0
+	border-top: 1px solid #D2DAE1
+	font-size: 14px
+	line-height: 150%
+	color: $grey
+
+// modal
+.modal-backdrop
+	background: #141414
+	&.show
+		opacity: 0.4
+
+.modal-dialog
+	max-width: 936px
+	.btn-close
+		padding: 0
+		stroke: $grey
+		fill: none
+		border: none
+		border-radius: 0
+		background: transparent
+		position: absolute
+		z-index: 2
+		cursor: pointer
+		opacity: 1
+		margin: 0
+		width: 24px
+		height: 24px
+		min-width: 24px
+		right: 16px
+		top: 16px
+		@include d-flex
+		&:hover
+			stroke: $accent
+
+.modal-content
+	background: #fff
+	border-radius: 6px
+	border: none
+	position: relative
+
+.modal-header
+	padding: 40px 40px 0
+	border: none
+	border-radius: 0
+	width: 100%
+	margin: 0 0 32px
+
+.modal-title
+	width: 100%
+	margin: 0
+	text-align: left
+	padding: 0 24px 0 0
+
+.modal-body
+	padding: 0 40px 40px
+	width: 100%
+	border: none
+
+.modal-footer
+	border: none
+	padding: 40px
+	background: #F3F6FA
+	justify-content: flex-start
+	>*
+		margin: 0
+	.doctor-phone
+		font-size: 24px
+	.doctors-card-item__title
+		font-size: 14px
+
+.list-cities
+	width: 100%
+	column-count: 3
+	font-size: 14px
+	margin: 32px 0 0
+	li
+		margin: 0 0 16px
+		a
+			color: $black
+			&:hover
+				color: $accent
+			&:focus, &:active, &.active
+				color: #075CBF
+			&.disabled, &:disabled
+				color: $black
+				opacity: 0.5
+
+.form-search-modal
+	position: relative
+	label
+		margin: 0
+		width: 100%
+	[type='submit']
+		fill: none
+		stroke: $grey
+		width: 20px
+		height: 20px
+		min-width: auto
+		@include d-flex
+		position: absolute
+		top: 14px
+		right: 20px
+		background: transparent
+		margin: 0
+		&:hover
+			stroke: $accent
+	.input-text
+		padding-right: 40px
+
+#areaModal
+	.modal-dialog
+		max-width: 520px
+
+.form-area
+	[type='submit']
+		margin: 32px 0 0
+
+#dateModal
+	.modal-dialog
+		max-width: 680px
+
+.form-area-box
+	margin: 32px 0 0
+	h3
+		margin: 0 0 24px
+
+.consent
+	margin: 16px 0 24px
+	font-size: 14px
+
+.information-call
+	display: flex
+	align-items: flex-start
+	margin: 32px 0 0
+	color: $grey
+	font-size: 14px
+	line-height: 150%
+	&__icon
+		width: 20px
+		min-width: 20px
+		margin: 2px 12px 0 0
+
+.form-callback
+	margin: 24px 0 0
+
+#callModal
+	.modal-dialog
+		max-width: 520px
+
+#mapModal
+	.modal-dialog
+		max-width: 940px
+
+.map-wrapper
+	background: #F3F6FA
+	border-radius: 8px
+	width: 100%
+	height: 600px
+	@include d-flex
+	color: $grey
+	iframe
+		width: 100%
+		height: 100%

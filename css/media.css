@@ -1,0 +1,869 @@
+/*==========	Desktop First	==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1340px) {
+  .reviews-slider {
+    padding: 0 30px;
+  }
+  .slick-prev {
+    left: 0;
+  }
+  .slick-next {
+    right: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .menu {
+    margin: 0 20px 0 0;
+  }
+  .menu .nav-item {
+    margin: 0 20px 0 0;
+  }
+  .filter-box {
+    margin: 0 20px 0 0;
+  }
+  .doctors-card {
+    padding: 20px;
+  }
+  .doctors-card__body {
+    width: calc(100% - 320px);
+  }
+  .doctors-card__footer {
+    max-width: 320px;
+  }
+  .doctors-card .appointment-box-wrapper {
+    width: 100%;
+    margin: 0 0 16px;
+  }
+  .appointment-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .nav-breadcrumb {
+    margin: 0 0 16px;
+  }
+  .nav-menu {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 290px;
+    z-index: 10;
+    background: #fff;
+    padding: 20px 30px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-left: 1px solid #D2DAE1;
+  }
+  .nav-menu .locaton-city, .nav-menu .logo, .nav-menu .phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-menu .link {
+    margin: 0 0 15px;
+  }
+  .nav-menu__close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 20px 0;
+    width: 100%;
+  }
+  .menu .nav-item {
+    margin: 0 0 10px;
+  }
+  .btn-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .logo {
+    margin: 0 auto 0 20px;
+  }
+  .btn-search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .phone {
+    margin: 0 0 0 20px;
+  }
+  .footer-box {
+    margin: 0 0 24px;
+  }
+  .footer-top {
+    padding: 32px 0 8px;
+  }
+  .footer-bottom {
+    padding: 24px 0;
+  }
+  .box-text-documents {
+    margin: 16px 0 0;
+  }
+  .page-header {
+    padding: 24px 0;
+    border-radius: 24px;
+  }
+  .page-body {
+    padding: 16px 0 56px;
+  }
+  .form-search-doctors {
+    margin: 0;
+  }
+  .filter-wrapper .btn-group, .filter-wrapper .btn-medicine {
+    display: none;
+  }
+  .filter-box {
+    margin: 0;
+  }
+  .search-doctors-result {
+    margin: 0 0 16px;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .doctors-card {
+    padding: 16px;
+  }
+  .doctors-card__body {
+    width: 100%;
+    padding: 0 0 0 144px;
+  }
+  .doctors-card__footer {
+    margin: 16px 0 0;
+    max-width: none;
+  }
+  .product-sidebar {
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    margin: 0 0 16px;
+  }
+  .product-content .doctor-position {
+    margin: 0 0 8px;
+  }
+  .product-content .h4 {
+    margin: 0;
+  }
+  .doctors-card-item {
+    margin: 0 0 16px;
+  }
+  .doctors-card-item-btn {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 16px 0 0;
+  }
+  .product-content__name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .nav-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border-bottom: 1px solid #D2DAE1;
+  }
+  .nav-tabs .nav-item {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 24px 0 0;
+  }
+  .nav-tabs .nav-item:last-child {
+    margin: 0;
+  }
+  .nav-tabs .nav-link {
+    padding: 0 0 8px;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+  }
+  .nav-tabs .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    background: transparent;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  .nav-tabs .nav-link.active {
+    background: transparent;
+    color: #237AE0;
+  }
+  .nav-tabs .nav-link.active::before {
+    background: #237AE0;
+  }
+  .tab-content {
+    margin: 16px 0 0;
+  }
+  .tab-content h2, .tab-content h3 {
+    margin: 0 0 16px;
+  }
+  .specialization-box {
+    padding: 0 0 24px;
+    margin: 0 0 24px;
+  }
+  .product-sidebar .list-schedule li p, .product-sidebar .list-schedule li span {
+    background: #fff;
+  }
+  .product-advantages-box {
+    margin: 8px 0 0;
+  }
+  .product-content__box .list-category {
+    margin: 16px 0;
+  }
+  .certificates-item {
+    height: auto;
+  }
+  .nav-tabs-product {
+    position: relative;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 16px 0;
+  }
+  header .link {
+    display: none;
+  }
+  header .logo {
+    margin: 0 auto;
+  }
+  .p-64 {
+    padding: 32px 0;
+  }
+  .m-80 {
+    margin: 40px 0;
+  }
+  .mb-48 {
+    margin-bottom: 24px;
+  }
+  h1, .h1 {
+    font-size: 30px;
+  }
+  h2, .h2 {
+    font-size: 26px;
+  }
+  .advantages-wrapper {
+    margin: 20px 0 0;
+  }
+  .btn-toggle-services {
+    margin: 16px auto 0;
+  }
+  .btn {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .btn-filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .filter-box p {
+    display: none;
+  }
+  .form-search-doctors {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 0 20px;
+  }
+  .form-search-doctors label {
+    width: 100%;
+  }
+  .form-search-doctors [type=submit] {
+    width: 100%;
+  }
+  .filter-mobile {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    max-width: 290px;
+    width: 100%;
+    background: #fff;
+    z-index: 10;
+    padding: 20px;
+    overflow-y: auto;
+    border-left: 1px solid #D2DAE1;
+  }
+  .filter-mobile__head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .filter-mobile .btn-medicine {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .filter-mobile .btn-medicine, .filter-mobile .btn-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .filter-mobile .btn-group .btn {
+    margin: 0 0 10px;
+    width: 100%;
+  }
+  .filter-mobile .btn-group .btn:last-child {
+    margin: 0;
+  }
+  .reviews-box {
+    padding: 16px;
+  }
+  .reviews-box__clinic {
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  h1, .h1 {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  h2, .h2 {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  h3, .h3 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  h4, .h4 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .btn-sm {
+    padding: 10px 20px;
+  }
+  body {
+    line-height: normal;
+  }
+  .mb-24 {
+    margin-bottom: 16px;
+  }
+  .cities-services h2 {
+    margin: 0 auto 16px;
+  }
+  .list-category {
+    margin: 16px 0 0;
+    font-size: 12px;
+  }
+  .list-category__link {
+    padding: 6px 10px;
+    margin: 0 4px 4px 0;
+  }
+  .list-category__link:last-child {
+    margin: 0 0 4px;
+  }
+  .link-toggle-category {
+    padding: 4px 6px;
+    height: auto;
+    font-size: 12px;
+  }
+  .footer-menu {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .footer-menu li {
+    margin: 0 0 8px;
+    width: 100%;
+  }
+  .footer-phone {
+    font-size: 18px;
+    line-height: 130%;
+  }
+  .footer-mail {
+    font-size: 14px;
+  }
+  .footer-bottom {
+    font-size: 12px;
+  }
+  .footer-call p {
+    font-size: 12px;
+    line-height: normal;
+    margin: 0 0 8px;
+  }
+  .modal-header {
+    margin: 0 0 24px;
+    padding: 20px 20px 0;
+  }
+  .modal-body {
+    padding: 0 20px 20px;
+  }
+  .modal-footer {
+    padding: 20px;
+  }
+  .modal-footer .doctors-card-item__title {
+    font-size: 12px;
+  }
+  .modal-footer .doctor-phone {
+    font-size: 18px;
+  }
+  .modal .form-callback [type=submit] {
+    margin: 0 auto;
+  }
+  .consent {
+    font-size: 12px;
+    margin: 8px 0 16px;
+  }
+  .form-callback {
+    margin: 16px 0 0;
+  }
+  .information-call {
+    font-size: 12px;
+    margin: 16px 0 0;
+  }
+  .list-cities {
+    margin: 24px 0 0;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+  }
+  .list-cities li {
+    margin: 0 0 8px;
+  }
+  .input-text {
+    font-size: 14px;
+    top: 18px;
+  }
+  .form-search {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .form-search label {
+    width: 100%;
+    margin: 0 0 8px;
+  }
+  .form-search [type=submit] {
+    min-width: auto;
+    width: 100%;
+  }
+  .result-search {
+    width: 100%;
+    top: 52px;
+  }
+  .form-search-modal [type=submit] {
+    width: 20px;
+  }
+  .advantages-box {
+    padding: 20px;
+  }
+  .list-services li {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .list-services li::before {
+    display: none;
+  }
+  .list-services li p {
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0;
+  }
+  .list-services li span {
+    padding: 0;
+    margin: 0;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 8px 24px;
+  }
+  .btn-icon {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+  }
+  .btn-border-accent {
+    padding: 12px 25px;
+  }
+  .link-toggle-category {
+    padding: 6px 13px;
+  }
+  .search-doctors-result span {
+    display: block;
+    width: 100%;
+    margin: 8px 0 0;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .search-doctors-result span::before {
+    display: none;
+  }
+  .doctors-card {
+    min-height: auto;
+    font-size: 12px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .doctors-card__photo {
+    margin: 0 24px 0 0;
+    position: relative;
+    max-width: 112px;
+  }
+  .doctors-card__body {
+    padding: 0;
+  }
+  .doctors-card__body .rating-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .doctors-card__head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 0 16px;
+  }
+  .doctors-card__head .rating-wrapper {
+    display: none;
+  }
+  .doctors-card .list-rating {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 16px 0 0;
+  }
+  .doctors-card .rating-value {
+    margin: 0;
+  }
+  .doctor-name {
+    line-height: normal;
+  }
+  .reception-type-box {
+    padding: 8px 12px;
+  }
+  .reception-type-box .price-wrapper {
+    font-size: 16px;
+  }
+  .doctors-card-item {
+    margin: 0 0 16px;
+    font-size: 12px;
+    line-height: normal;
+  }
+  .doctors-card-item:last-child {
+    margin: 0;
+  }
+  .doctors-card-item__title {
+    margin: 0 0 4px;
+  }
+  .doctors-card-item__title.h4 {
+    margin: 0 0 16px;
+  }
+  .doctor-phone {
+    font-size: 16px;
+  }
+  .rating-wrapper {
+    margin: 8px auto 0;
+  }
+  .list-address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .list-address-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+    position: relative;
+  }
+  .list-address-item::before {
+    position: absolute;
+    left: 0;
+    top: 4px;
+  }
+  .list-address-item p {
+    padding: 0 0 0 12px;
+  }
+  .list-address-item span {
+    display: block;
+    margin: 2px 0 0;
+    width: 100%;
+  }
+  .time-list-slider-mob {
+    width: calc(100% + 16px);
+    overflow-x: auto;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .time-list-slider-mob li {
+    margin: 0;
+    width: 67px;
+  }
+  .time-list-item {
+    padding: 8px 12px;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .pagination .page-item {
+    margin: 0 6px 0 0;
+  }
+  .pagination .page-item:last-child {
+    margin: 0;
+  }
+  .pagination .page-link {
+    width: 36px;
+    height: 40px;
+    min-width: 36px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  .select-my {
+    font-size: 12px;
+    padding: 0 40px 0 20px;
+  }
+  .form-area [type=submit] {
+    margin: 16px 0 0;
+  }
+  .form-area-box {
+    margin: 24px 0 0;
+  }
+  .form-area-box h3 {
+    margin: 0 0 16px;
+  }
+  .datepicker .ui-datepicker .ui-datepicker-title {
+    margin: 0 auto;
+  }
+  .datepicker .ui-datepicker .ui-datepicker-header {
+    font-size: 20px;
+  }
+  .list-checkbox li {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .list-checkbox li:last-child {
+    margin: 0;
+  }
+  .result-search-doctors {
+    margin: 30px auto 0;
+  }
+  .clinic-card .rating-wrapper {
+    margin: 0 0 8px;
+  }
+  .btn-toggle-text {
+    margin: 8px 0 0;
+    font-size: 12px;
+  }
+  .reviews {
+    margin: 0 0 60px;
+  }
+  .reviews-box {
+    font-size: 12px;
+    line-height: 150%;
+    margin: 0 0 12px;
+    position: relative;
+  }
+  .reviews-box:last-child {
+    margin: 0;
+  }
+  .reviews-box .date {
+    margin: 16px 0 0;
+  }
+  .reviews-box__content {
+    padding: 0;
+    width: 100%;
+  }
+  .reviews-box__user {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+  }
+  .reviews-box__name {
+    margin: 0;
+    padding: 0 0 0 72px;
+    min-height: 56px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .reviews-box .rating-wrapper {
+    margin: 16px 0 0;
+  }
+  .doctors-card__description {
+    max-height: 58px;
+  }
+  .product-content__name {
+    width: 100%;
+    padding: 0;
+  }
+  .doctors-card__footer .doctors-card-address {
+    margin: 0 0 16px;
+  }
+  .product-content .doctors-card__photo {
+    margin: 0 auto 24px;
+    max-width: 280px;
+  }
+  .product-content .doctors-card__photo-avatar {
+    width: 240px;
+    height: 240px;
+    border-radius: 0;
+    border: none;
+    margin: 0 auto;
+  }
+  .product-content .rating-wrapper {
+    background: #fff;
+    -webkit-box-shadow: 0 8px 20px rgba(20, 20, 20, 0.08);
+            box-shadow: 0 8px 20px rgba(20, 20, 20, 0.08);
+    padding: 12px;
+    margin: -20px auto 0;
+    position: relative;
+    z-index: 1;
+  }
+  .product-content .box-text {
+    font-size: 12px;
+  }
+  .doctors-card-item-btn {
+    margin: 16px 0 0;
+  }
+  .list-address {
+    margin: 8px 0 0;
+  }
+  .nav-tabs {
+    font-size: 12px;
+  }
+  .nav-tabs .nav-link {
+    font-size: 12px;
+  }
+  .reviews-filter-rating {
+    width: 100%;
+    margin: 0 0 16px;
+    font-size: 16px;
+  }
+  .reviews-filter .select-my {
+    width: 100%;
+    text-align: center;
+  }
+  .btn-map {
+    padding: 22px;
+    font-size: 14px;
+  }
+  .specialization-box {
+    font-size: 14px;
+  }
+  .list-education-item {
+    font-size: 14px;
+  }
+  .list-education-item__year {
+    text-align: left;
+    width: 56px;
+    min-width: 56px;
+    font-size: 16px;
+  }
+  .list-education-item__text {
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 56px);
+  }
+  .list-dots-accent li::before {
+    margin-top: 6px;
+  }
+  .prices-category {
+    margin: 24px 0 0;
+  }
+  .prices-box {
+    padding: 16px;
+    width: calc(100% + 24px);
+    margin: 0 -12px 12px;
+  }
+  .prices-box:last-child {
+    margin: 0 -12px;
+  }
+  .prices-box h4 {
+    font-size: 14px;
+  }
+  .list-price {
+    font-size: 12px;
+  }
+  .status-visit {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 16px 0 0;
+    font-size: 10px;
+  }
+  .doctocs-section {
+    margin: 0 0 56px;
+  }
+  .map-wrapper {
+    height: 300px;
+  }
+  .nav-breadcrumb {
+    margin: 0 0 16px;
+  }
+  .breadcrumb {
+    font-size: 12px;
+  }
+  .breadcrumb-item::after {
+    margin: 0 6px;
+    width: 10px;
+    height: 10px;
+  }
+  .section {
+    margin: 0 0 40px;
+  }
+  .section:last-child {
+    margin: 0;
+  }
+}
